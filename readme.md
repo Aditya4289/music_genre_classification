@@ -46,34 +46,38 @@ music_genre_classification/
 
 ### 1️⃣ Clone the repository
 
-```bash
 git clone https://github.com/aditya4289/music-genre-classification.git
 cd music-genre-classification
 
+---
 
 ### 2️⃣ Install dependencies
 
 Make sure you have Python 3.8+ installed.
 
-'''bash
 pip install -r requirements.txt
+
+---
 
 ### 3️⃣ Extract features from .wav dataset
 
-'''bash
 python extract_features.py
+
+---
 
 ### 4️⃣ Train the model
 
-'''bash
 python model_train.py
+
+---
 
 ### 5️⃣ Run the Streamlit web app
 
-'''bash
 streamlit run app.py
 
 Then open http://localhost:8501 in your browser.
+
+--- 
 
 🧠 Notes
 Recommended .wav file length: 30 seconds
